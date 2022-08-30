@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         // * استدعاء الكود الخاص بإحضار الموقع
         onPressed: _getCurrentLocation,
-        tooltip: 'Increment',
+        tooltip: 'Location',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
